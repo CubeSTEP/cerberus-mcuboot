@@ -1,3 +1,6 @@
+// This pulls in the .overlay file for the nucleo_h723zg. Change accordingly.
+#include "../../../../../../nucleo_h723zg.overlay"
+
 / {
 	chosen {
 		zephyr,code-partition = &boot_partition;
